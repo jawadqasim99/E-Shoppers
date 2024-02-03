@@ -1,11 +1,11 @@
-.popular{
+.new-collections{
     display: flex;
     align-items: center;
     flex-direction: column;
     height: 100vh;
     gap: 0.4rem;
 }
-.popular h1{
+.new-collections h1{
     color: #171717;
     font-size: 3rem;
     font-weight: 600;
@@ -16,9 +16,9 @@ height: 0.4rem;
   border-radius: 0.8rem;
     background-color:  #252525;
 }
-.popular-item{
-    display: flex;
-    gap: 1.3rem;
-   margin-top: 3rem;
-   
+.collections{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 3rem;
+    gap: 2rem;
 }
